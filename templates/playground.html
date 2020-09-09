@@ -1,0 +1,17 @@
+<head>
+    <style>
+        #box{
+            width: 500px;
+            height: 500px;
+            display: inline-block;
+            margin-top: 120px;
+            margin-left: 80px;
+            background-color: {{color}};
+        }
+    </style>
+    <body>
+        {% for x in range (0, num): %}
+            <div id=box></div>
+        {% endfor %}
+    </body>
+</head>
